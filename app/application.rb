@@ -32,9 +32,9 @@ class Application
     #     resp.write "#{item}\n"
     #   end
 
-    else
-      resp.write "Path Not Found"
-    end
+    # else
+    #   resp.write "Path Not Found"
+    # end
 
     resp.finish
   end
